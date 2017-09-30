@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>login</key>
+	<dict>
+		<key>source</key>
+		<string>0</string>
+		<key>describe</key>
+		<string>这里是描述</string>
+		<key>url</key>
+		<string>xesrouter://login/view</string>
+		<key>className</key>
+		<string>XESLoginVC</string>
+	</dict>
+	<key>testviewcontroller</key>
+	<dict>
+		<key>source</key>
+		<string>1</string>
+		<key>describe</key>
+		<string>xib的测试vc</string>
+		<key>url</key>
+		<string>xesrouter://test/xib/view</string>
+		<key>className</key>
+		<string>XESTestXibVC</string>
+	</dict>
+	<key>storyboardviewcontroller</key>
+	<dict>
+		<key>storyboardName</key>
+		<string>XESTestStoryboardVC</string>
+		<key>storyboardID</key>
+		<string>XESTestStoryboardVC</string>
+		<key>source</key>
+		<string>2</string>
+		<key>describe</key>
+		<string>storyboard的测试vc</string>
+		<key>url</key>
+		<string>xesrouter://test/storyboard/view</string>
+	</dict>
+	<key>storyboardviewcontroller </key>
+	<dict>
+		<key>storyboardName</key>
+		<string>XESTestStoryboardVC</string>
+		<key>storyboardID</key>
+		<string>XESTestStoryboardVC</string>
+		<key>source</key>
+		<string>2</string>
+		<key>describe</key>
+		<string>storyboard的测试vc</string>
+		<key>url</key>
+		<string>xesrouter://test/storyboard/view</string>
+	</dict>
+</dict>
+</plist>

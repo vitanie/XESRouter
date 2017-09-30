@@ -1,0 +1,652 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A3D86801F00F56D00E128E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3D867F1F00F56D00E128E8 /* main.m */; };
+		4A3D86831F00F56D00E128E8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3D86821F00F56D00E128E8 /* AppDelegate.m */; };
+		4A3D86861F00F56D00E128E8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3D86851F00F56D00E128E8 /* ViewController.m */; };
+		4A3D86891F00F56D00E128E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A3D86871F00F56D00E128E8 /* Main.storyboard */; };
+		4A3D868B1F00F56D00E128E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A3D868A1F00F56D00E128E8 /* Assets.xcassets */; };
+		4A3D868E1F00F56D00E128E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A3D868C1F00F56D00E128E8 /* LaunchScreen.storyboard */; };
+		4A3D86991F00F56D00E128E8 /* XESRouterDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3D86981F00F56D00E128E8 /* XESRouterDemoTests.m */; };
+		4A3D86A41F00F56D00E128E8 /* XESRouterDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3D86A31F00F56D00E128E8 /* XESRouterDemoUITests.m */; };
+		A0434B2A1F220A430021F8E3 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = A0434B291F220A430021F8E3 /* README.md */; };
+		A0EE0F471F14DD780043968E /* XESRouter.podspec in Resources */ = {isa = PBXBuildFile; fileRef = A0EE0F461F14DD780043968E /* XESRouter.podspec */; };
+		A0EE0F561F1603BA0043968E /* AppDelegate+Router.m in Sources */ = {isa = PBXBuildFile; fileRef = A0EE0F551F1603BA0043968E /* AppDelegate+Router.m */; };
+		A0EE0F5B1F1604190043968E /* XESRouter.plist in Resources */ = {isa = PBXBuildFile; fileRef = A0EE0F581F1604190043968E /* XESRouter.plist */; };
+		A0EE0F5C1F1604190043968E /* XESRouterPath.m in Sources */ = {isa = PBXBuildFile; fileRef = A0EE0F5A1F1604190043968E /* XESRouterPath.m */; };
+		A0EE0F601F1604730043968E /* XESBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0EE0F5F1F1604730043968E /* XESBaseViewController.m */; };
+		A0EE0F681F16080E0043968E /* XESTestStoryboardVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A0EE0F631F16080E0043968E /* XESTestStoryboardVC.m */; };
+		A0EE0F691F16080E0043968E /* XESTestStoryboardVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0EE0F641F16080E0043968E /* XESTestStoryboardVC.storyboard */; };
+		A0EE0F6A1F16080E0043968E /* XESTestXibVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A0EE0F661F16080E0043968E /* XESTestXibVC.m */; };
+		A0EE0F6B1F16080E0043968E /* XESTestXibVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0EE0F671F16080E0043968E /* XESTestXibVC.xib */; };
+		A0EE0F6E1F160EE40043968E /* XESLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A0EE0F6D1F160EE40043968E /* XESLoginVC.m */; };
+		C6BEC0C11F7F6F1400468038 /* libXESRouterLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C6BEC0BC1F7F6F1400468038 /* libXESRouterLibrary.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4A3D86951F00F56D00E128E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A3D86731F00F56D00E128E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A3D867A1F00F56D00E128E8;
+			remoteInfo = XESRouterDemo;
+		};
+		4A3D86A01F00F56D00E128E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A3D86731F00F56D00E128E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A3D867A1F00F56D00E128E8;
+			remoteInfo = XESRouterDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4A3D867B1F00F56D00E128E8 /* XESRouterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XESRouterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A3D867F1F00F56D00E128E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4A3D86811F00F56D00E128E8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4A3D86821F00F56D00E128E8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4A3D86841F00F56D00E128E8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4A3D86851F00F56D00E128E8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4A3D86881F00F56D00E128E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4A3D868A1F00F56D00E128E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A3D868D1F00F56D00E128E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4A3D868F1F00F56D00E128E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A3D86941F00F56D00E128E8 /* XESRouterDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XESRouterDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A3D86981F00F56D00E128E8 /* XESRouterDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XESRouterDemoTests.m; sourceTree = "<group>"; };
+		4A3D869A1F00F56D00E128E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A3D869F1F00F56D00E128E8 /* XESRouterDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XESRouterDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A3D86A31F00F56D00E128E8 /* XESRouterDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XESRouterDemoUITests.m; sourceTree = "<group>"; };
+		4A3D86A51F00F56D00E128E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0434B291F220A430021F8E3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A0EE0F461F14DD780043968E /* XESRouter.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = XESRouter.podspec; path = ../XESRouter.podspec; sourceTree = "<group>"; };
+		A0EE0F541F1603BA0043968E /* AppDelegate+Router.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+Router.h"; sourceTree = "<group>"; };
+		A0EE0F551F1603BA0043968E /* AppDelegate+Router.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+Router.m"; sourceTree = "<group>"; };
+		A0EE0F581F1604190043968E /* XESRouter.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = XESRouter.plist; sourceTree = "<group>"; };
+		A0EE0F591F1604190043968E /* XESRouterPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XESRouterPath.h; sourceTree = "<group>"; };
+		A0EE0F5A1F1604190043968E /* XESRouterPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XESRouterPath.m; sourceTree = "<group>"; };
+		A0EE0F5E1F1604730043968E /* XESBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XESBaseViewController.h; sourceTree = "<group>"; };
+		A0EE0F5F1F1604730043968E /* XESBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XESBaseViewController.m; sourceTree = "<group>"; };
+		A0EE0F621F16080E0043968E /* XESTestStoryboardVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XESTestStoryboardVC.h; sourceTree = "<group>"; };
+		A0EE0F631F16080E0043968E /* XESTestStoryboardVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XESTestStoryboardVC.m; sourceTree = "<group>"; };
+		A0EE0F641F16080E0043968E /* XESTestStoryboardVC.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = XESTestStoryboardVC.storyboard; sourceTree = "<group>"; };
+		A0EE0F651F16080E0043968E /* XESTestXibVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XESTestXibVC.h; sourceTree = "<group>"; };
+		A0EE0F661F16080E0043968E /* XESTestXibVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XESTestXibVC.m; sourceTree = "<group>"; };
+		A0EE0F671F16080E0043968E /* XESTestXibVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XESTestXibVC.xib; sourceTree = "<group>"; };
+		A0EE0F6C1F160EE40043968E /* XESLoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XESLoginVC.h; sourceTree = "<group>"; };
+		A0EE0F6D1F160EE40043968E /* XESLoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XESLoginVC.m; sourceTree = "<group>"; };
+		C6BEC0BC1F7F6F1400468038 /* libXESRouterLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libXESRouterLibrary.a; sourceTree = "<group>"; };
+		C6BEC0BD1F7F6F1400468038 /* UIViewController+URLRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+URLRouter.h"; sourceTree = "<group>"; };
+		C6BEC0BE1F7F6F1400468038 /* XESRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XESRouter.h; sourceTree = "<group>"; };
+		C6BEC0BF1F7F6F1400468038 /* XESRouterHader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XESRouterHader.h; sourceTree = "<group>"; };
+		C6BEC0C01F7F6F1400468038 /* XESRouterModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XESRouterModel.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A3D86781F00F56D00E128E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6BEC0C11F7F6F1400468038 /* libXESRouterLibrary.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A3D86911F00F56D00E128E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A3D869C1F00F56D00E128E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A3D86721F00F56D00E128E8 = {
+			isa = PBXGroup;
+			children = (
+				A0EE0F461F14DD780043968E /* XESRouter.podspec */,
+				A0434B291F220A430021F8E3 /* README.md */,
+				4A3D867D1F00F56D00E128E8 /* XESRouterDemo */,
+				4A3D86971F00F56D00E128E8 /* XESRouterDemoTests */,
+				4A3D86A21F00F56D00E128E8 /* XESRouterDemoUITests */,
+				4A3D867C1F00F56D00E128E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A3D867C1F00F56D00E128E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A3D867B1F00F56D00E128E8 /* XESRouterDemo.app */,
+				4A3D86941F00F56D00E128E8 /* XESRouterDemoTests.xctest */,
+				4A3D869F1F00F56D00E128E8 /* XESRouterDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A3D867D1F00F56D00E128E8 /* XESRouterDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C6BEC0BB1F7F6F1400468038 /* XESRouter */,
+				4A3D86811F00F56D00E128E8 /* AppDelegate.h */,
+				4A3D86821F00F56D00E128E8 /* AppDelegate.m */,
+				A0EE0F541F1603BA0043968E /* AppDelegate+Router.h */,
+				A0EE0F551F1603BA0043968E /* AppDelegate+Router.m */,
+				4A3D86841F00F56D00E128E8 /* ViewController.h */,
+				4A3D86851F00F56D00E128E8 /* ViewController.m */,
+				A0EE0F611F16080E0043968E /* TestViewController */,
+				A0EE0F5D1F1604730043968E /* BaseModule */,
+				A0EE0F571F1604190043968E /* PuterPath */,
+				4A3D86871F00F56D00E128E8 /* Main.storyboard */,
+				4A3D868A1F00F56D00E128E8 /* Assets.xcassets */,
+				4A3D868C1F00F56D00E128E8 /* LaunchScreen.storyboard */,
+				4A3D868F1F00F56D00E128E8 /* Info.plist */,
+				4A3D867E1F00F56D00E128E8 /* Supporting Files */,
+			);
+			path = XESRouterDemo;
+			sourceTree = "<group>";
+		};
+		4A3D867E1F00F56D00E128E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A3D867F1F00F56D00E128E8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4A3D86971F00F56D00E128E8 /* XESRouterDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				4A3D86981F00F56D00E128E8 /* XESRouterDemoTests.m */,
+				4A3D869A1F00F56D00E128E8 /* Info.plist */,
+			);
+			path = XESRouterDemoTests;
+			sourceTree = "<group>";
+		};
+		4A3D86A21F00F56D00E128E8 /* XESRouterDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4A3D86A31F00F56D00E128E8 /* XESRouterDemoUITests.m */,
+				4A3D86A51F00F56D00E128E8 /* Info.plist */,
+			);
+			path = XESRouterDemoUITests;
+			sourceTree = "<group>";
+		};
+		A0EE0F571F1604190043968E /* PuterPath */ = {
+			isa = PBXGroup;
+			children = (
+				A0EE0F581F1604190043968E /* XESRouter.plist */,
+				A0EE0F591F1604190043968E /* XESRouterPath.h */,
+				A0EE0F5A1F1604190043968E /* XESRouterPath.m */,
+			);
+			path = PuterPath;
+			sourceTree = "<group>";
+		};
+		A0EE0F5D1F1604730043968E /* BaseModule */ = {
+			isa = PBXGroup;
+			children = (
+				A0EE0F5E1F1604730043968E /* XESBaseViewController.h */,
+				A0EE0F5F1F1604730043968E /* XESBaseViewController.m */,
+			);
+			path = BaseModule;
+			sourceTree = "<group>";
+		};
+		A0EE0F611F16080E0043968E /* TestViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A0EE0F621F16080E0043968E /* XESTestStoryboardVC.h */,
+				A0EE0F631F16080E0043968E /* XESTestStoryboardVC.m */,
+				A0EE0F641F16080E0043968E /* XESTestStoryboardVC.storyboard */,
+				A0EE0F651F16080E0043968E /* XESTestXibVC.h */,
+				A0EE0F661F16080E0043968E /* XESTestXibVC.m */,
+				A0EE0F671F16080E0043968E /* XESTestXibVC.xib */,
+				A0EE0F6C1F160EE40043968E /* XESLoginVC.h */,
+				A0EE0F6D1F160EE40043968E /* XESLoginVC.m */,
+			);
+			path = TestViewController;
+			sourceTree = "<group>";
+		};
+		C6BEC0BB1F7F6F1400468038 /* XESRouter */ = {
+			isa = PBXGroup;
+			children = (
+				C6BEC0BC1F7F6F1400468038 /* libXESRouterLibrary.a */,
+				C6BEC0BD1F7F6F1400468038 /* UIViewController+URLRouter.h */,
+				C6BEC0BE1F7F6F1400468038 /* XESRouter.h */,
+				C6BEC0BF1F7F6F1400468038 /* XESRouterHader.h */,
+				C6BEC0C01F7F6F1400468038 /* XESRouterModel.h */,
+			);
+			path = XESRouter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A3D867A1F00F56D00E128E8 /* XESRouterDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A3D86A81F00F56D00E128E8 /* Build configuration list for PBXNativeTarget "XESRouterDemo" */;
+			buildPhases = (
+				4A3D86771F00F56D00E128E8 /* Sources */,
+				4A3D86781F00F56D00E128E8 /* Frameworks */,
+				4A3D86791F00F56D00E128E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XESRouterDemo;
+			productName = XESRouterDemo;
+			productReference = 4A3D867B1F00F56D00E128E8 /* XESRouterDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4A3D86931F00F56D00E128E8 /* XESRouterDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A3D86AB1F00F56D00E128E8 /* Build configuration list for PBXNativeTarget "XESRouterDemoTests" */;
+			buildPhases = (
+				4A3D86901F00F56D00E128E8 /* Sources */,
+				4A3D86911F00F56D00E128E8 /* Frameworks */,
+				4A3D86921F00F56D00E128E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A3D86961F00F56D00E128E8 /* PBXTargetDependency */,
+			);
+			name = XESRouterDemoTests;
+			productName = XESRouterDemoTests;
+			productReference = 4A3D86941F00F56D00E128E8 /* XESRouterDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4A3D869E1F00F56D00E128E8 /* XESRouterDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A3D86AE1F00F56D00E128E8 /* Build configuration list for PBXNativeTarget "XESRouterDemoUITests" */;
+			buildPhases = (
+				4A3D869B1F00F56D00E128E8 /* Sources */,
+				4A3D869C1F00F56D00E128E8 /* Frameworks */,
+				4A3D869D1F00F56D00E128E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A3D86A11F00F56D00E128E8 /* PBXTargetDependency */,
+			);
+			name = XESRouterDemoUITests;
+			productName = XESRouterDemoUITests;
+			productReference = 4A3D869F1F00F56D00E128E8 /* XESRouterDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A3D86731F00F56D00E128E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = XES;
+				TargetAttributes = {
+					4A3D867A1F00F56D00E128E8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 472P9J8R6U;
+						ProvisioningStyle = Automatic;
+					};
+					4A3D86931F00F56D00E128E8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 472P9J8R6U;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4A3D867A1F00F56D00E128E8;
+					};
+					4A3D869E1F00F56D00E128E8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 472P9J8R6U;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4A3D867A1F00F56D00E128E8;
+					};
+				};
+			};
+			buildConfigurationList = 4A3D86761F00F56D00E128E8 /* Build configuration list for PBXProject "XESRouterDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A3D86721F00F56D00E128E8;
+			productRefGroup = 4A3D867C1F00F56D00E128E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A3D867A1F00F56D00E128E8 /* XESRouterDemo */,
+				4A3D86931F00F56D00E128E8 /* XESRouterDemoTests */,
+				4A3D869E1F00F56D00E128E8 /* XESRouterDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A3D86791F00F56D00E128E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A3D868E1F00F56D00E128E8 /* LaunchScreen.storyboard in Resources */,
+				4A3D868B1F00F56D00E128E8 /* Assets.xcassets in Resources */,
+				A0EE0F471F14DD780043968E /* XESRouter.podspec in Resources */,
+				4A3D86891F00F56D00E128E8 /* Main.storyboard in Resources */,
+				A0EE0F6B1F16080E0043968E /* XESTestXibVC.xib in Resources */,
+				A0EE0F5B1F1604190043968E /* XESRouter.plist in Resources */,
+				A0EE0F691F16080E0043968E /* XESTestStoryboardVC.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A3D86921F00F56D00E128E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A3D869D1F00F56D00E128E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A3D86771F00F56D00E128E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0EE0F601F1604730043968E /* XESBaseViewController.m in Sources */,
+				4A3D86861F00F56D00E128E8 /* ViewController.m in Sources */,
+				4A3D86831F00F56D00E128E8 /* AppDelegate.m in Sources */,
+				A0EE0F5C1F1604190043968E /* XESRouterPath.m in Sources */,
+				A0434B2A1F220A430021F8E3 /* README.md in Sources */,
+				A0EE0F6E1F160EE40043968E /* XESLoginVC.m in Sources */,
+				4A3D86801F00F56D00E128E8 /* main.m in Sources */,
+				A0EE0F6A1F16080E0043968E /* XESTestXibVC.m in Sources */,
+				A0EE0F681F16080E0043968E /* XESTestStoryboardVC.m in Sources */,
+				A0EE0F561F1603BA0043968E /* AppDelegate+Router.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A3D86901F00F56D00E128E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A3D86991F00F56D00E128E8 /* XESRouterDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A3D869B1F00F56D00E128E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A3D86A41F00F56D00E128E8 /* XESRouterDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A3D86961F00F56D00E128E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A3D867A1F00F56D00E128E8 /* XESRouterDemo */;
+			targetProxy = 4A3D86951F00F56D00E128E8 /* PBXContainerItemProxy */;
+		};
+		4A3D86A11F00F56D00E128E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A3D867A1F00F56D00E128E8 /* XESRouterDemo */;
+			targetProxy = 4A3D86A01F00F56D00E128E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4A3D86871F00F56D00E128E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A3D86881F00F56D00E128E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4A3D868C1F00F56D00E128E8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A3D868D1F00F56D00E128E8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A3D86A61F00F56D00E128E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4A3D86A71F00F56D00E128E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A3D86A91F00F56D00E128E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 472P9J8R6U;
+				INFOPLIST_FILE = XESRouterDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/XESRouterDemo/XESRouter",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xes.XESRouterDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4A3D86AA1F00F56D00E128E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 472P9J8R6U;
+				INFOPLIST_FILE = XESRouterDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/XESRouterDemo/XESRouter",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xes.XESRouterDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4A3D86AC1F00F56D00E128E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 472P9J8R6U;
+				INFOPLIST_FILE = XESRouterDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xes.XESRouterDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XESRouterDemo.app/XESRouterDemo";
+			};
+			name = Debug;
+		};
+		4A3D86AD1F00F56D00E128E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 472P9J8R6U;
+				INFOPLIST_FILE = XESRouterDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xes.XESRouterDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XESRouterDemo.app/XESRouterDemo";
+			};
+			name = Release;
+		};
+		4A3D86AF1F00F56D00E128E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 472P9J8R6U;
+				INFOPLIST_FILE = XESRouterDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xes.XESRouterDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XESRouterDemo;
+			};
+			name = Debug;
+		};
+		4A3D86B01F00F56D00E128E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 472P9J8R6U;
+				INFOPLIST_FILE = XESRouterDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xes.XESRouterDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XESRouterDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A3D86761F00F56D00E128E8 /* Build configuration list for PBXProject "XESRouterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A3D86A61F00F56D00E128E8 /* Debug */,
+				4A3D86A71F00F56D00E128E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A3D86A81F00F56D00E128E8 /* Build configuration list for PBXNativeTarget "XESRouterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A3D86A91F00F56D00E128E8 /* Debug */,
+				4A3D86AA1F00F56D00E128E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A3D86AB1F00F56D00E128E8 /* Build configuration list for PBXNativeTarget "XESRouterDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A3D86AC1F00F56D00E128E8 /* Debug */,
+				4A3D86AD1F00F56D00E128E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A3D86AE1F00F56D00E128E8 /* Build configuration list for PBXNativeTarget "XESRouterDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A3D86AF1F00F56D00E128E8 /* Debug */,
+				4A3D86B01F00F56D00E128E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A3D86731F00F56D00E128E8 /* Project object */;
+}
