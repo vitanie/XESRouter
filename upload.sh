@@ -1,1 +1,1 @@
-pod trunk push XESRouter.podspec --verbose --allow-warnings
+pod trunk push XESRouterPublic.podspec --verbose --allow-warnings
